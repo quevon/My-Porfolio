@@ -391,6 +391,7 @@ section .title::after{
     text-align: center;
     overflow: hidden;
     transition: all 0.3s ease;
+    height: 25rem;
 }
 .teams .carousel .card:hover{
     background: red;
@@ -412,10 +413,8 @@ section .title::after{
 }
 .teams .carousel .card img{
     height: 150px;
-    width: 150px;
+    width: 100%;
     object-fit: cover;
-    border-radius: 50%;
-    border: 5px solid red;
     transition: all 0.3s ease;
 }
 .teams .carousel .card:hover img{
