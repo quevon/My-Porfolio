@@ -9,8 +9,8 @@
     }
 html{
     scroll-behavior: smooth;
+    font-size: 80.5%;
 }
-
 /* custom scroll bar */
 ::-webkit-scrollbar {
     width: 10px;
@@ -20,6 +20,7 @@ html{
 }
 ::-webkit-scrollbar-thumb {
     background: #888;
+    border-radius: 5rem;
 }
 
 ::-webkit-scrollbar-thumb:hover {
@@ -381,7 +382,7 @@ section .title::after{
 
 /* teams section styling */
 .teams .title::after{
-    content: "who with me";
+    content: "what i created";
 }
 .teams .carousel .card{
     background: #222;
@@ -538,20 +539,52 @@ section .title::after{
   background: none;
 }
 /* footer section styling */
-footer{
-    background: #111;
-    padding: 15px 23px;
-    color: #fff;
+
+.footer{
+    
     text-align: center;
-}
-footer span a{
-    color: red;
-    text-decoration: none;
-}
-footer span a:hover{
-    text-decoration: underline;
+    border-top: 1px solid #000;
+    text-transform: capitalize;
+    padding: 2rem 9%
 }
 
+.footer .share{
+    display: flex;
+    flex-direction: row;
+    padding:1rem 0;
+    justify-content: center;
+    
+}
+
+.footer .share a{
+    display: flex;
+    height: 3rem;
+    width: 3rem;
+    line-height: 4rem;
+    font-size: 1.5rem;
+    color:#000;
+    margin:.3rem;
+    border-radius: 50%;
+    border: 1px  solid #000;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer .share a:hover{
+    background-color: red;
+    transform: translateY(-10px);
+}
+
+.footer .credit{
+    font-size: 1.5rem;
+    color:#000;
+    font-weight: lighter;
+    padding:.5rem;
+}
+
+.footer .credit span{
+    color:red;
+}
 
 /* responsive media query start */
 @media (max-width: 1104px) {
