@@ -416,6 +416,7 @@ section .title::after{
     width: 100%;
     object-fit: cover;
     transition: all 0.3s ease;
+    border-radius: 5px;
 }
 .teams .carousel .card:hover img{
     border-color: #fff;
