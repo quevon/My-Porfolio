@@ -1,5 +1,5 @@
 # My-Porfolio
 https://quevongalangportfolio.netlify.app/
 
-QR CODE
+#QR CODE
 ![plot](/images/myportofilioqrcode.png)
