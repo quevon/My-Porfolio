@@ -77,7 +77,49 @@ section .title::after{
     background: #fff;
     transform: translateX(-50%);
 }
-
+button {
+    display: inline-block;
+    border-radius: 4px;
+    background-color: #FFFFFF;
+    border: none;
+    color:  #3d405b;
+    text-align: center;
+    font-size: 17px;
+    padding: 14px;
+    width: 130px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+   }
+   button:hover{
+    background: red;
+   }
+   button a {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+    font-weight: 500;
+   }button a:hover{
+       color:#FFFFFF ;
+   }
+   button a:after {
+    content: '»';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -15px;
+    transition: 0.5s;
+   }
+   
+   button:hover a {
+    padding-right: 15px;
+   }
+   
+   button:hover a:after {
+    opacity: 1;
+    right: 0;
+   }
 /* navbar styling */
 .navbar{
     position: fixed;
@@ -389,11 +431,9 @@ section .title::after{
     text-align: center;
     overflow: hidden;
     transition: all 0.3s ease;
-    height: 25rem;
+    height: 26rem;
 }
-.teams .carousel .card:hover{
-    background: red;
-}
+
 .teams .carousel .card .box{
     display: flex;
     flex-direction: column;
@@ -401,9 +441,7 @@ section .title::after{
     justify-content: center;
     transition: all 0.3s ease;
 }
-.teams .carousel .card:hover .box{
-    transform: scale(1.05);
-}
+
 .teams .carousel .card .text{
     font-size: 25px;
     font-weight: 500;
