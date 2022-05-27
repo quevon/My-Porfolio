@@ -79,7 +79,7 @@ section .title::after{
 }
 .button-container{
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
 }
 button {
     display: inline-block;
