@@ -244,7 +244,7 @@ button {
     color: red;
     font-weight: 500;
 }
-.home .home-content a{
+.home .home-content .hire-btn{
     display: inline-block;
     background: red;
     color: #fff;
@@ -259,6 +259,28 @@ button {
 .home .home-content a:hover{
     color: red;
     background: none;
+}
+.home .home-content .share{
+    display: flex;
+    flex-direction: row;
+    padding:1rem 0;
+}
+
+.home .home-content .share a{
+    display: flex;
+    height: 3rem;
+    width: 3rem;
+    line-height: 4rem;
+    font-size: 2rem;
+    color:#fff;
+    margin:.3rem;
+    justify-content: center;
+    align-items: center;
+    
+}
+.home .home-content .share a:hover{
+    transform: translateY(-10px);
+    color: red;
 }
 
 /* about section styling */
