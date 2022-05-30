@@ -328,21 +328,21 @@ button {
     background: none;
 }
 
-.teams{
+.projects{
     color:#fff;
     background: #111;
 }
-.teams .title::before{
+.projects .title::before{
     background: #fff;
 }
-.teams .title::after{
+.projects .title::after{
     background: #111;
     content: "what i provide";
 }
-.teams .title::after{
+.projects .title::after{
     content: "what i created";
 }
-.teams .carousel .card{
+.projects .carousel .card{
     background: #222;
     border-radius: 6px;
     padding: 25px 35px;
@@ -352,7 +352,7 @@ button {
     height: 26rem;
 }
 
-.teams .carousel .card .box{
+.projects .carousel .card .box{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -360,19 +360,19 @@ button {
     transition: all 0.3s ease;
 }
 
-.teams .carousel .card .text{
+.projects .carousel .card .text{
     font-size: 25px;
     font-weight: 500;
     margin: 10px 0 7px 0;
 }
-.teams .carousel .card img{
+.projects .carousel .card img{
     height: 150px;
     width: 100%;
     object-fit: cover;
     transition: all 0.3s ease;
     border-radius: 5px;
 }
-.teams .carousel .card:hover img{
+.projects .carousel .card:hover img{
     border-color: #fff;
 }
 .owl-dots{
@@ -516,11 +516,6 @@ button {
         width: calc(50% - 10px);
         margin-bottom: 20px;
     }
-    .skills .skills-content .column,
-    .contact .contact-content .column{
-        width: 100%;
-        margin-bottom: 35px;
-    }
 }
 
 @media (max-width: 690px) {
@@ -536,9 +531,6 @@ button {
     .home .home-content a{
         font-size: 20px;
     }
-    .services .serv-content .card{
-        width: 100%;
-    }
 }
 
 @media (max-width: 500px) {
@@ -548,16 +540,8 @@ button {
     .home .home-content .text-3{
         font-size: 27px;
     }
-    .about .about-content .right .text,
-    .skills .skills-content .left .text{
+    .about .about-content .right .text{
         font-size: 19px;
-    }
-    .contact .right form .fields{
-        flex-direction: column;
-    }
-    .contact .right form .name,
-    .contact .right form .email{
-        margin: 0;
     }
     .right form .error-box{
        width: 150px;
