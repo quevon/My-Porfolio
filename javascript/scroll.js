@@ -1,9 +1,9 @@
 export const scroll =  () => {
     window.addEventListener('scroll',() =>{
-        const leftImage = document.querySelector('.left');
+        const abountContent = document.querySelector('.about-content');
         const projects = document.querySelector('.carousel');
     
-        const leftImagePosition = leftImage.getBoundingClientRect().top;
+        const leftImagePosition = abountContent.getBoundingClientRect().top;
         const screenPosition = window.innerHeight / 1;
     
         const projectsPosition = projects.getBoundingClientRect().top;
@@ -12,9 +12,9 @@ export const scroll =  () => {
 
     
         if(leftImagePosition < screenPosition){
-            leftImage.classList.add('active');
+            abountContent.classList.add('active');
         }else{
-            leftImage.classList.remove('active');
+            abountContent.classList.remove('active');
         }
         if(projectsPosition < projectscreenPosition){
             projects.classList.add('active-projects');
