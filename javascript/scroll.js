@@ -3,7 +3,7 @@ export const scroll =  () => {
         const abountContent = document.querySelector('.about-content');
         const projects = document.querySelector('.carousel');
     
-        const leftImagePosition = abountContent.getBoundingClientRect().top;
+        const abountContentPosition = abountContent.getBoundingClientRect().top;
         const screenPosition = window.innerHeight / 1;
     
         const projectsPosition = projects.getBoundingClientRect().top;
@@ -11,7 +11,7 @@ export const scroll =  () => {
 
 
     
-        if(leftImagePosition < screenPosition){
+        if(abountContentPosition < screenPosition){
             abountContent.classList.add('active');
         }else{
             abountContent.classList.remove('active');
