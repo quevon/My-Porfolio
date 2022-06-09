@@ -4,10 +4,10 @@ export const scroll =  () => {
         const projects = document.querySelector('.carousel');
     
         const leftImagePosition = abountContent.getBoundingClientRect().top;
-        const screenPosition = window.innerHeight / 1.2;
+        const screenPosition = window.innerHeight / 1;
     
         const projectsPosition = projects.getBoundingClientRect().top;
-        const projectscreenPosition = window.innerHeight / 1.2;
+        const projectscreenPosition = window.innerHeight / 1;
 
 
     
