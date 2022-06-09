@@ -291,6 +291,15 @@ button {
 }
 
 /* about section styling */
+.about .left{
+    opacity: 0;
+    transform: scale(0.1);
+    transition: all 1s ease-in-out;
+}
+.about .left.active{
+    opacity: 1;
+    transform: scale(1);
+}
 .about .title::after{
     content: "who i am";
 }
@@ -349,14 +358,22 @@ button {
 .projects .title::after{
     content: "what i created";
 }
+.projects .carousel{
+    opacity: 0;
+    transform: scale(0.1);
+    transition: all 1s ease-in-out;
+}
 .projects .carousel .card{
     background: #222;
     border-radius: 6px;
     padding: 25px 35px;
     text-align: center;
     overflow: hidden;
-    transition: all 0.3s ease;
     height: 26rem;
+}
+.projects .carousel.active-projects{
+    opacity: 1;
+    transform: scale(1);
 }
 
 .projects .carousel .card .box{
