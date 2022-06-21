@@ -10,7 +10,6 @@ export const scroll =  () => {
         const projectscreenPosition = window.innerHeight / 1;
 
 
-    
         if(abountContentPosition < screenPosition){
             abountContent.classList.add('active');
         }else{
