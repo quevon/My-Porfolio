@@ -73,7 +73,7 @@ section .title::after{
     bottom: -8px;
     left: 50%;
     font-size: 20px;
-    color: red;
+    color: #E94B3CFF;
     padding: 0 5px;
     background: #fff;
     transform: translateX(-50%);
@@ -100,7 +100,7 @@ button {
 
    }
    button:hover{
-    background: red;
+    background: #E94B3CFF;
    }
    button a {
     cursor: pointer;
@@ -139,7 +139,7 @@ button {
 }
 .navbar.sticky{
     padding: 15px 0;
-    background: red;
+    background: #E94B3CFF;
 }
 .navbar .max-width{
     display: flex;
@@ -152,7 +152,7 @@ button {
     font-weight: 600;
 }
 .navbar .logo a span{
-    color: red;
+    color: #E94B3CFF;
     transition: all 0.3s ease;
 }
 .navbar.sticky .logo a span{
@@ -171,7 +171,7 @@ button {
     transition: color 0.3s ease;
 }
 .navbar .menu li a:hover{
-    color: red;
+    color: #E94B3CFF;
 }
 .navbar.sticky .menu li a:hover{
     color: black;
@@ -188,7 +188,7 @@ button {
     position: fixed;
     height: 45px;
     width: 42px;
-    background: red;
+    background: #E94B3CFF;
     right: 30px;
     bottom: 10px;
     text-align: center;
@@ -244,7 +244,7 @@ button {
     margin: 5px 0;
 }
 .home .home-content .text-3 span{
-    color: red;
+    color: #E94B3CFF;
     font-weight: 500;
 }
 .home .home-content .hire-btn{
@@ -256,14 +256,14 @@ button {
     margin-top: 20px;
     font-weight: 400;
     border-radius: 6px;
-    border: 2px solid red;
+    border: 2px solid #E94B3CFF;
     transition: all 0.3s ease;
     box-shadow: 0 0 0.5em 0 var(--clr-neon),0 0 0.5em var(--clr-neon);
     text-shadow: 0 0 0.125em hsl(0 0% 100%/ 0.3), 0 0 0.45em var(--clr-neon);
 
 }
 .home .home-content a:hover{
-    color: red;
+    color: #E94B3CFF;
     background: none;
 }
 .home .home-content .share{
@@ -287,7 +287,7 @@ button {
 }
 .home .home-content .share a:hover{
     transform: translateY(-10px);
-    color: red;
+    color: #E94B3CFF;
 }
 
 /* about section styling */
@@ -311,7 +311,7 @@ button {
     width: 400px;
     object-fit: cover;
     border-radius: 50%;
-    border: 5px solid red;
+    border: 5px solid #E94B3CFF;
 }
 .about .about-content .right{
     width: 55%;
@@ -322,14 +322,14 @@ button {
     margin-bottom: 10px;
 }
 .about .about-content .right .text span{
-    color: red;
+    color: #E94B3CFF;
 }
 .about .about-content .right p{
     text-align: justify;
 }
 .about .about-content .right a{
     display: inline-block;
-    background: red;
+    background: #E94B3CFF;
     color: #fff;
     font-size: 20px;
     font-weight: 500;
@@ -340,7 +340,7 @@ button {
     transition: all 0.3s ease;
 }
 .about .about-content .right a:hover{
-    color: red;
+    color: #E94B3CFF;
     background: none;
 }
 
@@ -409,7 +409,7 @@ button {
     margin: 0 5px;
     outline: none!important;
     border-radius: 50%;
-    border: 2px solid red!important;
+    border: 2px solid #E94B3CFF!important;
     transition: all 0.3s ease;
 }
 .owl-dot.active{
@@ -418,7 +418,7 @@ button {
 }
 .owl-dot.active,
 .owl-dot:hover{
-    background: red!important;
+    background: #E94B3CFF!important;
 }
 
 /* footer section styling */
@@ -454,19 +454,19 @@ button {
 }
 
 .footer .share a:hover{
-    background-color: red;
+    background-color: #E94B3CFF;
     transform: translateY(-10px);
 }
 
-.footer .credit{
+.footer .c#E94B3CFFit{
     font-size: 1.5rem;
     color:#000;
     font-weight: lighter;
     padding:.5rem;
 }
 
-.footer .credit span{
-    color:red;
+.footer .c#E94B3CFFit span{
+    color:#E94B3CFF;
 }
 
 /* responsive media query start */
