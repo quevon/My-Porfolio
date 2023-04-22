@@ -172,7 +172,7 @@ button:hover a:after {
   transition: all 0.3s ease;
 }
 .navbar.sticky {
-  padding: 15px 0;
+  padding: 20px 0;
   background: #222;
 }
 .navbar .max-width {
