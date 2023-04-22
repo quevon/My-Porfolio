@@ -173,7 +173,7 @@ button:hover a:after {
 }
 .navbar.sticky {
   padding: 15px 0;
-  background: #e94b3cff;
+  background: #222;
 }
 .navbar .max-width {
   display: flex;
