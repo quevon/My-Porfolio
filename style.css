@@ -29,7 +29,11 @@ html {
 ::-webkit-scrollbar-thumb:hover {
   background: #555;
 }
-
+body {
+  background: url("images/cc.jpg") no-repeat center;
+  background-size: cover;
+  background-attachment: fixed;
+}
 /* all similar content styling codes */
 section {
   padding: 100px 0;
@@ -245,12 +249,9 @@ button:hover a:after {
 /* home section styling */
 .home {
   display: flex;
-  background: url("images/cc.jpg") no-repeat center;
   height: 100vh;
   color: #fff;
   min-height: 500px;
-  background-size: cover;
-  background-attachment: fixed;
   font-family: "Ubuntu", sans-serif;
 }
 .home .max-width {
@@ -296,6 +297,9 @@ button:hover a:after {
 }
 
 /* about section styling */
+.about {
+  background: #fff;
+}
 .about .title::after {
   content: "who i am";
 }
@@ -351,7 +355,7 @@ button:hover a:after {
 
 .projects {
   color: #fff;
-  background: #111;
+  background: #11111186;
 }
 .projects .title::before {
   background: #fff;
@@ -429,6 +433,7 @@ button:hover a:after {
 /* footer section styling */
 
 .footer {
+  background: #ffff;
   text-align: center;
   border-top: 1px solid #000;
   text-transform: capitalize;
